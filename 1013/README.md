@@ -1,28 +1,21 @@
-Escreva um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e mostre:
-a) a área do triângulo retângulo que tem A por base e C por altura.
-b) a área do círculo de raio C. (pi = 3.14159)
-c) a área do trapézio que tem A e B por bases e C por altura.
-d) a área do quadrado que tem lado B.
-e) a área do retângulo que tem lados A e B.
+Faça um programa que leia três valores e apresente o maior dos três valores lidos seguido da mensagem “eh o maior”. Utilize a fórmula:
+
+MaiorAB = (a+b+abs+(a-b))
+                 2
+
+Obs.: a fórmula apenas calcula o maior entre os dois primeiros (a e b). Um segundo passo, portanto é necessário para chegar no resultado esperado.
+
 Entrada
-O arquivo de entrada contém três valores com um dígito após o ponto decimal.
+O arquivo de entrada contém três valores inteiros.
 
 Saída
-O arquivo de saída deverá conter 5 linhas de dados. Cada linha corresponde a uma das áreas descritas acima, sempre com mensagem correspondente e um espaço entre os dois pontos e o valor. O valor calculado deve ser apresentado com 3 dígitos após o ponto decimal.
+Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maior".
 
 Exemplos de Entrada	Exemplos de Saída
-3.0 4.0 5.2
+7 14 106
 
-TRIANGULO: 7.800
-CIRCULO: 84.949
-TRAPEZIO: 18.200
-QUADRADO: 16.000
-RETANGULO: 12.000
+106 eh o maior
 
-12.7 10.4 15.2
+217 14 6
 
-TRIANGULO: 96.520
-CIRCULO: 725.833
-TRAPEZIO: 175.560
-QUADRADO: 108.160
-RETANGULO: 132.080
+217 eh o maior
